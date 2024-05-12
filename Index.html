@@ -1,124 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component Library</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Sachin Suryawanshi Componenet Library</h1>
-    <p>
-      I am attending NeoG camp. I want to make a library which would make all my
-      projects good and consistant .
-    </p>
 
-    <!-- Typography -->
-    <hr />
-    <h2>@Typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading .</h2>
-    <p>This is a pargraph</p>
-    <small>This a small text.</small>
-    <p>This paragraph will have a <strong>bold</strong> text</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Component Library</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <!-- Container -->
-    <hr />
-    <h2>@Container</h2>
+<body>
+  <h1>Sachin Suryawanshi Componenet Library</h1>
+  <p>
+    I am attending NeoG camp. I want to make a library which would make all my
+    projects good and consistant .
+  </p>
 
-    <h3>Fluid Container</h3>
-    <div class="container">This is a Fluid container</div>
+  <!-- Typography -->
+  <hr />
+  <h2>@Typography</h2>
+  <h1>This is the biggest heading</h1>
+  <h2>This is the second biggest heading .</h2>
+  <p>This is a pargraph</p>
+  <small>This a small text.</small>
+  <p>This paragraph will have a <strong>bold</strong> text</p>
 
-    <h3>Center Container</h3>
+  <!-- Container -->
+  <hr />
+  <h2>@Container</h2>
+
+  <h3>Fluid Container</h3>
+  <div class="container">This is a Fluid container</div>
+
+  <h3>Center Container</h3>
+  <div class="container container-center">
+    This is a centered container and it will go till the specified width .
+  </div>
+
+  <!-- Links -->
+  <hr />
+  <h2>@Links</h2>
+  <a href="/" class="link link-primary">Primary Link</a>
+  <a href=" #" class="link link-secondary">Secondary Link</a>
+
+  <!-- Lists -->
+  <hr />
+  <h2>@Lists</h2>
+  <h3>Unorderd List</h3>
+  <p>This lists will not have bullets.</p>
+  <ul class="list-non-bullets">
+    <li>Item One</li>
+    <li>Item Two</li>
+    <li>Item Three</li>
+  </ul>
+
+  <h3>Unorderd Inline List</h3>
+  <ul class="list-non-bullets">
+    <li class="list-item-inline">Inline item one</li>
+    <li class="list-item-inline">Inline item two</li>
+    <li class="list-item-inline">Inline item three</li>
+  </ul>
+
+  <h3>Orderd List</h3>
+  <ol reversed>
+    <li>Milk</li>
+    <li>Eggs</li>
+    <li>Banana</li>
+  </ol>
+
+  <!-- Nav -->
+  <hr />
+  <h2>@Nav</h2>
+
+  <nav class="navigation">
+    <div class="nav-brand">iAmBrand</div>
+    <ul class="list-non-bullets nav-pills">
+      <li class="list-item-inline">
+        <a href="/" class="link active">Home</a>
+      </li>
+      <li class="list-item-inline">
+        <a href="/" class="link">Projects</a>
+      </li>
+      <li class="list-item-inline">
+        <a href="/" class="link">About</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- header -->
+  <hr />
+  <h2>@header</h2>
+  <header class="hero">
+    <img src="Hero-Img.svg" class="hero-img" alt="*" />
+    <h1 class="hero-heading">
+      Sachin the <span class="heading-inverted">web developer</span>
+    </h1>
+  </header>
+
+  <!-- Section -->
+  <hr />
+  <h2>@Section</h2>
+  <section class="section">
     <div class="container container-center">
-      This is a centered container and it will go till the specified width .
+      <h1>White Section</h1>
+      <p>
+        Programming is the art and science of instructing a computer to
+        perform specific tasks through the use of programming languages. It
+        involves the creation, implementation, and maintenance of algorithms
+        and code that enable computers to solve problems and execute desired
+        functions.
+      </p>
     </div>
+  </section>
 
-    <!-- Links -->
-    <hr />
-    <h2>@Links</h2>
-    <a href="/" class="link link-primary">Primary Link</a>
-    <a href=" #" class="link link-secondary">Secondary Link</a>
+  <section class="section ow">
+    <div class="container container-center">
+      <h1>White Section</h1>
+      <p>
+        Programming is the art and science of instructing a computer to
+        perform specific tasks through the use of programming languages. It
+        involves the creation, implementation, and maintenance of algorithms
+        and code that enable computers to solve problems and execute desired
+        functions.
+      </p>
+    </div>
+  </section>
+  <hr />
 
-    <!-- Lists -->
-    <hr />
-    <h2>@Lists</h2>
-    <h3>Unorderd List</h3>
-    <p>This lists will not have bullets.</p>
-    <ul class="list-non-bullets">
-      <li>Item One</li>
-      <li>Item Two</li>
-      <li>Item Three</li>
+  <!-- Footer -->
+  <h2>@Footer</h2>
+  <footer class="footer">
+    <div class="footer-header">Some small heading inside footer</div>
+    <ul class="social-links list-non-bullets">
+      <li class="list-item-inline">
+        <a href="/" class="link">Social One</a>
+      </li>
+      <li class="list-item-inline">
+        <a href="/" class="link">Social Two</a>
+      </li>
+      <li class="list-item-inline">
+        <a href="/" class="link">Social Three</a>
+      </li>
     </ul>
+  </footer>
 
-    <h3>Unorderd Inline List</h3>
-    <ul class="list-non-bullets">
-      <li class="list-item-inline">Inline item one</li>
-      <li class="list-item-inline">Inline item two</li>
-      <li class="list-item-inline">Inline item three</li>
-    </ul>
-
-    <h3>Orderd List</h3>
-    <ol reversed>
-      <li>Milk</li>
-      <li>Eggs</li>
-      <li>Banana</li>
-    </ol>
-
-    <!-- Nav -->
-    <hr />
-    <h2>@Nav</h2>
-
-    <nav class="navigation">
-      <div class="nav-brand">iAmBrand</div>
-      <ul class="list-non-bullets nav-pills">
-        <li class="list-item-inline">
-          <a href="/" class="link active">Home</a>
-        </li>
-        <li class="list-item-inline">
-          <a href="/" class="link">Projects</a>
-        </li>
-        <li class="list-item-inline">
-          <a href="/" class="link">About</a>
-        </li>
-      </ul>
-    </nav>
-
-    <!-- header -->
-    <hr />
-    <h2>@header</h2>
-    <header class="hero">
-      <img src="Hero-Img.svg" class="hero-img" alt="*" />
-      <h1 class="hero-heading">Sachin the <span class="heading-inverted">web developer</span></h1>
-    </header>
-
-    <!-- Section -->
-    <hr />
-    <h2>@Section</h2>
-    <section class="section">
-      <div class="container container-center">
-        <h1>White Section</h1>
-        <p>Programming is the art and science of instructing a computer to perform specific tasks through the use of programming languages. It involves the creation, implementation, and maintenance of algorithms and code that enable computers to solve problems and execute desired functions.</p>
-      </div>
-    </section>
-
-    <section class="section ow">
-      <div class="container container-center">
-        <h1>White Section</h1>
-        <p>Programming is the art and science of instructing a computer to perform specific tasks through the use of programming languages. It involves the creation, implementation, and maintenance of algorithms and code that enable computers to solve problems and execute desired functions.</p>
-      </div>
-    </section>
-    <hr />
-
-    <!-- Footer -->
-    <h2>@Footer</h2>
-    <footer>
-      <div>Some small heading inside footer</div>
-      <ul>
-        <li>Social One</li>
-        <li>Social Two</li>
-        <li>Social Three</li>
-      </ul>
-    </footer>
-  </body>
+</body>
 </html>
