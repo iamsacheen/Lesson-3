@@ -46,3 +46,14 @@ body{
 hr{
   margin-top: 20px;
 }
+
+/** Lists **/
+
+.list-non-bullets{
+  list-style: none;
+}
+
+.list-item-inline{
+  display: inline;
+  padding: 0rem 0.8rem;
+}
